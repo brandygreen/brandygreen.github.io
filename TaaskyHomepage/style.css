@@ -1,5 +1,5 @@
 body {
-	background: url("Assets/stripes.png") repeat-x, url("Assets/background.jpg") no-repeat;
+	background: url("stripes.png") repeat-x, url("background.jpg") no-repeat;
 	background-color:#53586B;
 	background-size: 800px 15px, cover;
     font-size: 20px;
