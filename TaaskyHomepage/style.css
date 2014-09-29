@@ -5,8 +5,10 @@ body {
     font-size: 20px;
     font-family: helvetica;
     color: ghostwhite;
-    padding: 300px;
     line-height: 30px;
+    margin-top: 275px;
+	margin-left: 70px;
+	padding: 20px;
 }
 
 hr {
