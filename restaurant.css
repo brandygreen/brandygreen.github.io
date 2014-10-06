@@ -1,0 +1,120 @@
+body{
+  background-image: url('therock.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 20%;
+}
+.main{
+  vertical-align: middle;
+  padding: 5% 0;
+}
+.headline{
+  background-color: rgb(237,32,59);
+  width: 600px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 15px 15px 0px 0px;
+  padding: 1% 0;
+}
+.drinks_headline{
+  background-color: rgb(0,116,194);
+  width: 600px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 15px 15px 0px 0px;
+  padding: 1% 0;
+}
+
+.navigation{
+  width: 600px;
+  height: 70px;
+  background-color: white;
+  border-radius: 0px 0px 15px 15px;
+  margin: 0 auto;
+  vertical-align: top;
+  padding: 3.5% 0;
+}
+
+h3{
+  font-family: 'Josefin Sans';
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  line-height: 0.002;
+}
+
+p{
+  font-family: 'Josefin Slab';
+  font-size: 20px;
+  margin-top: 0px;
+  text-align: center;
+
+}
+.menu{
+  width: 600px;
+  height: 800px;
+  background-color: white;
+  border-radius: 0px 0px 15px 15px;
+  margin: 0 auto;
+  vertical-align: top;
+  padding: 3% 0;
+  text-align: center;
+}
+.menu_food{
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  border-radius: 0px 0px 15px 15px;
+  margin: 0 auto;
+  vertical-align: top;
+  padding: 3% 0;
+  text-align: center;
+  }
+
+.item_title{
+  font-family: 'Josefin Sans';
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 3px;
+  margin-top: 50px;
+}
+
+.item_description{
+  font-family: 'Josefin Slab';
+  font-size: 18px;
+  margin: auto 100px auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.sub_heading{
+  font-family: 'Josefin Sans';
+  padding-top: 10px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+
+}
+hr{
+  width: 50px;
+  height: 2px;
+  background-color: white;
+  border: 0px;
+}
+a{
+  text-decoration: none;
+}
+
+.nav_link{
+  text-decoration: underline;
+  color: black;
+}
+
+.food_headline{
+  background-color: rgb(49,184,141);
+  width: 600px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 15px 15px 0px 0px;
+  padding: 1% 0;
+}
+
