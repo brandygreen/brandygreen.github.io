@@ -6,29 +6,16 @@ body {
   color:white;
   font-family:helvetica;
   }
-hr{
-  width:200px;
-}
-p {
-  font-size:22px;
-}
-input {
-  border: 0;
-  padding:10px;
-  font-size:18px;
-}
-input[type="submit"] {
-  background: #5bfbe6;
-  color:white; 
+
 }
 body    {  background:#e7e7e7;}
-#box    {  width:300px;
-           height:200px;
+#box    {  width:830px;
+           height:595px;
            box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
           border-bottom:2px solid #fff;
           border-right:2px solid #fff;
           margin:5% auto 0 auto; 
-          background:url('photo-one.jpg');
+          background:url('slide-01.png');
   background-size:cover;
 border-radius:5px;
 overflow:hidden;}
@@ -40,7 +27,7 @@ overflow:hidden;}
 
 #overlay    {  background:rgba(0,0,0,.75);
                text-align:center;
-               padding:45px 0 66px 0;
+               padding:300px 0 400px 0;
                opacity:0;
                -webkit-transition: opacity .25s ease;
 -moz-transition: opacity .25s ease;}
@@ -128,9 +115,6 @@ header {
 }
 
 
-.img-2 {
-  //background-image: url('dine.jpg');
-}
 
 .content {
   background: white;
@@ -139,6 +123,6 @@ header {
 }
 
 .wrap {
-  width: 960px;
+  width: 1500px;
   margin: 0 auto ;
 }
