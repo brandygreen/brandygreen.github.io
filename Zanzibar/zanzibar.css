@@ -1,0 +1,23 @@
+body {
+  text-align:center;
+  background:url("http://circuits-assets.generalassemb.ly/prod/asset/3/grand-central.jpg");
+  background-size: cover;
+  background-position:center;
+  color:white;
+  font-family:helvetica;
+  }
+hr{
+  width:200px;
+}
+p {
+  font-size:22px;
+}
+input {
+  border: 0;
+  padding:10px;
+  font-size:18px;
+}
+input[type="submit"] {
+  background: #358df2;
+  color:white; 
+}
