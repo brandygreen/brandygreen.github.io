@@ -1,13 +1,4 @@
-/*
-Theme Name: Obscura HTML
-Theme URI: http://themes.iki-bir.com/obscura-html
-Author: elemis
-Author URI: http://themeforest.net/user/elemis/portfolio
-Version: 1.0
-*/
-/*-----------------------------------------------------------------------------------*/
-/*	RESET
-/*-----------------------------------------------------------------------------------*/
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	margin:0;
 	padding:0;
@@ -1286,121 +1277,7 @@ li.post.pingback p {
 .forms br {
     display: none
 }
-/*-----------------------------------------------------------------------------------*/
-/*	SOCIAL
-/*-----------------------------------------------------------------------------------*/
-.social {
-    margin-bottom: 40px;
-    text-align: center;
-}
-#footer .social {
-    margin: 0;
-    text-align: left;
-}
-.social li {
-    display: inline;
-    margin: 0 2px;
-}
-.social a {
-    background: transparent url(style/images/social-icons.png) no-repeat 0 0;
-    height: 32px;
-    width: 32px;
-    display: inline-block;
-    position: relative;
-    -webkit-transition: none 200ms ease-in;
-    -o-transition: none 200ms ease-in;
-    -moz-transition: none 200ms ease-in;
-}
-.social a.rss {
-    background-position: 0 0
-}
-.social a.facebook {
-    background-position: -32px 0
-}
-.social .twitter {
-    background-position: -64px 0
-}
-.social .dribbble {
-    background-position: -96px 0
-}
-.social .pinterest {
-    background-position: -128px 0
-}
-.social .flickr {
-    background-position: -160px 0
-}
-.social .linkedin {
-    background-position: -192px 0
-}
-.social .vimeo {
-    background-position: -224px 0
-}
-.social .lastfm {
-    background-position: -256px 0
-}
-.social .tumblr {
-    background-position: -288px 0
-}
-.social .forrst {
-    background-position: -320px 0
-}
-.social .skype {
-    background-position: -352px 0
-}
-.social .friendfeed {
-    background-position: -384px 0
-}
-.social .deviantart {
-    background-position: -416px 0
-}
-.social .google {
-    background-position: -448px 0
-}
-.social a.rss:hover {
-    background-position: 0 bottom
-}
-.social .facebook:hover {
-    background-position: -32px bottom
-}
-.social .twitter:hover {
-    background-position: -64px bottom
-}
-.social .dribbble:hover {
-    background-position: -96px bottom
-}
-.social .pinterest:hover {
-    background-position: -128px bottom
-}
-.social .flickr:hover {
-    background-position: -160px bottom
-}
-.social .linkedin:hover {
-    background-position: -192px bottom
-}
-.social .vimeo:hover {
-    background-position: -224px bottom
-}
-.social .lastfm:hover {
-    background-position: -256px bottom
-}
-.social .tumblr:hover {
-    background-position: -288px bottom
-}
-.social .forrst:hover {
-    background-position: -320px bottom
-}
-.social .skype:hover {
-    background-position: -352px bottom
-}
-.social .friendfeed:hover {
-    background-position: -384px bottom
-}
-.social .deviantart:hover {
-    background-position: -416px bottom
-}
-.social .google:hover {
-    background-position: -448px bottom
-}
+
 /*-----------------------------------------------------------------------------------*/
 /*	FOOTER
 /*-----------------------------------------------------------------------------------*/
@@ -1487,39 +1364,4 @@ ul.flickr-feed li img {
 }
 .site-generator p {
     padding: 0
-}
-/*-----------------------------------------------------------------------------------*/
-/*	TWITTER
-/*-----------------------------------------------------------------------------------*/
-.widget_twitter .entry-meta {
-    display: block;
-    font-size: 11px;
-}
-.widget_twitter .entry-meta a {
-    color: #797979 !important
-}
-.widget_twitter .entry-meta a:hover {
-    color: #86aca3 !important
-}
-.widget_twitter ul {
-    padding: 0;
-    list-style: none;
-    margin-bottom: 15px;
-}
-.widget_twitter ul li {
-    background: transparent url(style/images/line.png) repeat-x center top;
-    padding: 0;
-    padding-top: 15px !important;
-    margin-top: 14px;
-}
-.widget_twitter ul li:first-child {
-    background: none;
-    margin: 0;
-    padding: 0 !important;
-}
-.follow-button {
-    display: block;
-    background: transparent url(style/images/line.png) repeat-x left top;
-    margin: 0;
-    padding: 15px 0 0 0;
 }
