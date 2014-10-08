@@ -1,6 +1,6 @@
 body {
   text-align:center;
-  background:url("http://circuits-assets.generalassemb.ly/prod/asset/3/grand-central.jpg");
+  background:url('02.jpg');
   background-size: cover;
   background-position:center;
   color:white;
@@ -18,6 +18,127 @@ input {
   font-size:18px;
 }
 input[type="submit"] {
-  background: #358df2;
+  background: #5bfbe6;
   color:white; 
+}
+body    {  background:#e7e7e7;}
+#box    {  width:300px;
+           height:200px;
+           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+          border-bottom:2px solid #fff;
+          border-right:2px solid #fff;
+          margin:5% auto 0 auto; 
+          background:url('photo-one.jpg');
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;}
+#dine { position: fixed; top: 0; left: 0; }
+.dinewidth { width: 100%; }
+.dineheight { height: 100%; }
+
+
+
+#overlay    {  background:rgba(0,0,0,.75);
+               text-align:center;
+               padding:45px 0 66px 0;
+               opacity:0;
+               -webkit-transition: opacity .25s ease;
+-moz-transition: opacity .25s ease;}
+
+#box:hover #overlay {
+               opacity:1;}
+
+#plus       {  font-family:Helvetica;
+               font-weight:900;
+               color:rgba(255,255,255,.85);
+               font-size:96px;}
+/* Needed css */
+html,
+body {
+  height: 100%; /* This is needed :( */
+}
+
+
+.cover-image {
+  background-image: url('02.jpg');
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1; /* The magic of fixed parallax header*/
+}
+
+/* Just some fun */
+.cover-image {
+  background-repeat: no-repeat;
+  -webkit-transition: background-image 1s;
+  transition: background-image 1s;
+  
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* centering some text */
+  h1 { 
+    display: table;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    margin: auto; 
+    font-size: 3em;
+  }
+}
+
+header {
+  height: 100%;
+  min-height: 100%; 
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  
+  
+  nav {
+    position: absolute;
+    z-index: 2;
+    bottom: -5px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+    background-color: fadeout(#fff, 70%);
+    
+    a {
+      color: black;
+      font-size: 1.5em;
+      display: inline-block;
+      margin: 10px 30px;
+      //display: inline-block;
+    }
+  }
+}
+
+
+.img-2 {
+  //background-image: url('dine.jpg');
+}
+
+.content {
+  background: white;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.wrap {
+  width: 960px;
+  margin: 0 auto ;
 }
