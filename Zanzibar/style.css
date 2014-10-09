@@ -89,7 +89,7 @@ header {
 
 .content {
   background-image: url('bamboo.jpg');
-  background-repeat: no-repeat;
+  background-repeat: fixed;
   padding: 900px;
   width: 500%;
 }
