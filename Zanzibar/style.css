@@ -7,44 +7,16 @@ body {
   font-family:helvetica;
   }
 
+p  {
+    color:white;
+    font-family:courier;
+    font-size:160%
 }
-body    {  background:#e7e7e7;}
-#box    {  width:830px;
-           height:595px;
-           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-          border-bottom:2px solid #fff;
-          border-right:2px solid #fff;
-          margin:5% auto 0 auto; 
-          background:url('slide-01.png');
-  background-size:cover;
-border-radius:5px;
-overflow:hidden;}
-#dine { position: fixed; top: 0; left: 0; }
-.dinewidth { width: 100%; }
-.dineheight { height: 100%; }
 
-
-
-#overlay    {  background:rgba(0,0,0,.75);
-               text-align:center;
-               padding:300px 0 400px 0;
-               opacity:0;
-               -webkit-transition: opacity .25s ease;
--moz-transition: opacity .25s ease;}
-
-#box:hover #overlay {
-               opacity:1;}
-
-#plus       {  font-family:Helvetica;
-               font-weight:900;
-               color:rgba(255,255,255,.85);
-               font-size:96px;}
-/* Needed css */
 html,
 body {
-  height: 100%; /* This is needed :( */
+  height: 100%;
 }
-
 
 .cover-image {
   background-image: url('02.jpg');
@@ -55,10 +27,9 @@ body {
   left: 0px;
   right: 0px;
   bottom: 0px;
-  z-index: -1; /* The magic of fixed parallax header*/
+  z-index: -1; 
 }
 
-/* Just some fun */
 .cover-image {
   background-repeat: no-repeat;
   -webkit-transition: background-image 1s;
@@ -69,7 +40,7 @@ body {
     height: 100%;
   }
   
-  /* centering some text */
+
   h1 { 
     display: table;
     position: absolute;
@@ -86,7 +57,7 @@ body {
 }
 
 header {
-  height: 100%;
+  height: 300%;
   min-height: 100%; 
   width: 100%;
   display: inline-block;
@@ -96,9 +67,9 @@ header {
   nav {
     position: absolute;
     z-index: 2;
-    bottom: -5px;
+    bottom: 10px;
     display: block;
-    width: 100%;
+    width: 00%;
     margin: 0 auto;
     text-align: center;
     
@@ -117,12 +88,21 @@ header {
 
 
 .content {
-  background: white;
-  padding: 20px 0;
-  width: 100%;
+  background-image: url('bamboo.jpg');
+  background-repeat: no-repeat;
+  padding: 885px ;
+  width: 50%;
+}
+
+.social-icons {
+  text-indent: 15em;
 }
 
 .wrap {
-  width: 1500px;
+  width: 150px;
   margin: 0 auto ;
 }
+
+
+
+
