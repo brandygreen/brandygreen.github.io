@@ -89,9 +89,9 @@ header {
 
 .content {
   background-image: url('bamboo.jpg');
-  background-repeat: fixed;
-  padding: 900px;
-  width: 500%;
+  background-repeat: no-repeat;
+  padding: 100px;
+  width: 100%;
 }
 
 .social-icons {
